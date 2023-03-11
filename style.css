@@ -56,12 +56,22 @@ section:nth-child(2n) {
   background-color: white;
 }
 
-img.photo {
+/* img.photo {
+  border: 3px solid lightblue;
+} */
+
+section>img {
   border: 3px solid lightblue;
 }
 
-.call:hover,
+/* .call:hover,
 .message:hover {
   transform: scale(1.3);
   cursor: pointer;
+} */
+
+div>img:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  transition: all .4s;
 }
